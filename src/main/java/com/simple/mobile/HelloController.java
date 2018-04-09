@@ -15,6 +15,7 @@ public class HelloController {
     @RequestMapping(value = "/say/{id}",method = RequestMethod.GET)
     public String toSay(@PathVariable("id") Integer id){
 //        return girlProperties.getCupSize();
+        System.out.println(id);
         return "id = "+id;
     }
 }
