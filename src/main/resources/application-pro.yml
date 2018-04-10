@@ -2,6 +2,3 @@ server:
   port: 8080
   servlet:
     context-path: /mobile
-girl:
-  cupSize: F
-  age: 18

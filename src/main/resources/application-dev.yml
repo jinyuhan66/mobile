@@ -2,6 +2,11 @@ server:
   port: 8080
   servlet:
     context-path: /mobile
-girl:
-  cupSize: B
-  age: 18
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mobile
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
